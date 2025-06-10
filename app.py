@@ -18,8 +18,7 @@ from dotenv import load_dotenv
 
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',filename='rag_pipeline.log', # <--- Add this line
-    filemode='w')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 #logging.info("Server started!")
 
